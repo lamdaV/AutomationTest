@@ -9,7 +9,7 @@ public class HelloWorld {
 	 * @return the statement "Hello World"
 	 */
 	public static String hello() {
-		return "Hello Wrld";
+		return "Hello World";
 	}
 
 }
