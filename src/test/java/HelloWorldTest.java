@@ -60,4 +60,17 @@ public class HelloWorldTest {
 		assertEquals("RainFall", HelloWorld.combineString("Rain", "Fall"));
 		assertEquals(":-)", HelloWorld.combineString(":-", ")"));
 	}
+	
+	@SuppressWarnings("boxing")
+	@Test
+	public void testDivisibleByTwo() {
+		assertEquals(true, HelloWorld.divisibleByTwo(2));
+		assertEquals(true, HelloWorld.divisibleByTwo(4));
+		assertEquals(true, HelloWorld.divisibleByTwo(6));
+		assertEquals(true, HelloWorld.divisibleByTwo(90));		
+		assertEquals(false, HelloWorld.divisibleByTwo(3));
+		assertEquals(false, HelloWorld.divisibleByTwo(91));
+		assertEquals(false, HelloWorld.divisibleByTwo(21));
+		assertEquals(false, HelloWorld.divisibleByTwo(35));
+	}
 }

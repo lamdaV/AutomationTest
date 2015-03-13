@@ -65,4 +65,16 @@ public class HelloWorld {
 	public static String combineString(String a, String b) {
 		return "";
 	}
+	
+	/**
+	 * Return a Boolean value indicating if the number is divisible by 2.
+	 *
+	 * Hint: Use the modulus operator (%).
+	 * 
+	 * @param number
+	 * @return
+	 */
+	public static boolean divisibleByTwo(int number) {
+		return false;
+	}
 }
