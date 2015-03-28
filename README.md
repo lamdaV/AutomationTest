@@ -7,4 +7,5 @@ Testing Automatic Grading.
 4. Import into Eclipse.
 5. Attempt to solve the problem set. Use the provided JUnit test to confirm working solution.
 6. When done, commit using git app. 
-7. Travis CI will respond. If the response is not positive, retry and resubmit.
+7. Push the request from your own repository.
+8. Travis CI will respond. If the response is not positive, retry and resubmit.
