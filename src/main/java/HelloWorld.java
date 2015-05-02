@@ -8,7 +8,7 @@ public class HelloWorld {
 	 * @return the statement "Hello World"
 	 */
 	public static String hello() {
-		return " ";
+		return "Hello World";
 	}
 
 	/**
@@ -19,7 +19,7 @@ public class HelloWorld {
 	 * @return the sum of x and y.
 	 */
 	public static int sum(int x, int y) {
-		return 0;
+		return x + y;
 	}
 
 	/**
@@ -35,7 +35,11 @@ public class HelloWorld {
 	 * @return the distance between the given coordinates.
 	 */
 	public static int distance(int x1, int y1, int x2, int y2) {
-		return 0;
+		int nX = x2 - x1;
+		int nY = y2 - y1;
+		int nXsquare = (int) Math.pow(nX, 2);
+		int nYsquare = (int) Math.pow(nY, 2);
+		return (int) Math.sqrt(nXsquare + nYsquare);
 	}
 
 	/**
@@ -49,7 +53,15 @@ public class HelloWorld {
 	 * @return sum of of array values.
 	 */
 	public static int summation(int[] listOfInts) {
-		return 0;
+		return summationHelper(listOfInts, 0, 0);
+	}
+	
+	public static int summationHelper(int[] listofInts, int currentIndex, int sum) {
+		if (currentIndex == listofInts.length) {
+			return sum;
+		}
+		sum = sum + listofInts[currentIndex];
+		return summationHelper(listofInts, currentIndex + 1, sum);
 	}
 
 	/**
@@ -63,7 +75,7 @@ public class HelloWorld {
 	 * @return the combined strings.
 	 */
 	public static String combineString(String a, String b) {
-		return "";
+		return a + b;
 	}
 	
 	/**
@@ -75,6 +87,9 @@ public class HelloWorld {
 	 * @return
 	 */
 	public static boolean divisibleByTwo(int number) {
+		if (number % 2 == 0) {
+			return true;
+		}
 		return false;
 	}
 }

@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="test.java.HelloWorldTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2015-03-13T05:05:54" hostname="LAMD-W540" time="0.002">
+<testsuite name="test.java.HelloWorldTest" tests="6" skipped="0" failures="0" errors="0" timestamp="2015-03-13T18:39:13" hostname="LAMD-W540" time="0.003">
   <properties/>
-  <testcase name="test" classname="test.java.HelloWorldTest" time="0.002"/>
+  <testcase name="testSummation" classname="test.java.HelloWorldTest" time="0.001"/>
+  <testcase name="testSum" classname="test.java.HelloWorldTest" time="0.0"/>
+  <testcase name="testDivisibleByTwo" classname="test.java.HelloWorldTest" time="0.0"/>
+  <testcase name="testHello" classname="test.java.HelloWorldTest" time="0.0"/>
+  <testcase name="testCombineString" classname="test.java.HelloWorldTest" time="0.0"/>
+  <testcase name="testDistance" classname="test.java.HelloWorldTest" time="0.0"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>
