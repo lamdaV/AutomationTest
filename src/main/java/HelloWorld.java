@@ -8,7 +8,7 @@ public class HelloWorld {
 	 * @return the statement "Hello World"
 	 */
 	public static String hello() {
-		return " ";
+		return "Hello World";
 	}
 
 	/**
